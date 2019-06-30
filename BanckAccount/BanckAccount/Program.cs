@@ -2,7 +2,7 @@
 
 namespace BanckAccount
 {
-    //    BankAccount
+    //    BankAccount 
     //Simulate a bank account supporting opening/closing, withdrawals, and deposits of money. (sum / dif / open or close account)
 
     //It should be possible to close an account; operations against a closed account must fail. (deny operations if account close)
@@ -24,7 +24,7 @@ namespace BanckAccount
             myAccount.AccountInfo();
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
 
-            myAccount.Withdraw(1550.34M);
+            myAccount.Withdraw(1550.3M);
             myAccount.WMessage();
             myAccount.AccountInfo();
             myAccount.Withdraw(155000.34M);
